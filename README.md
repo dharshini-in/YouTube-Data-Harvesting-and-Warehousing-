@@ -12,20 +12,21 @@ The entire project is implemented using the Python programming language, showcas
 **2.	YouTube Data API:**
 	The official YouTube Data API is employed to interact with YouTube's platform, facilitating the retrieval of channel, video, and comment data. This API is crucial for accessing and collecting information from YouTube.
  
-**3.	Streamlit:**
-	Streamlit is utilized to build the user interface and visualization components of the project. It simplifies the process of creating interactive web applications with minimal code, enhancing the user experience.
+ **3.	PyMongo:**
+	PyMongo is a Python library that acts as a connector between Python and MongoDB. It facilitates the interaction with MongoDB from the YouTube Data Scraper, allowing for seamless data storage and retrieval.
  
 **4.	MongoDB:**
 	MongoDB serves as the NoSQL database for efficient storage of raw, unstructured data. It provides flexibility in handling diverse data types and is well-suited for the initial storage of YouTube data.
  
 **5.	PostgreSQL:**
 	PostgreSQL, a robust open-source relational database management system, is used for structured data storage and management. It supports efficient querying and analysis, making it suitable for structured tables related to channels, playlists, videos, and comments.
- 
-**6.	PyMongo:**
-	PyMongo is a Python library that acts as a connector between Python and MongoDB. It facilitates the interaction with MongoDB from the YouTube Data Scraper, allowing for seamless data storage and retrieval.
 
-**7.	Pandas:**
+**6.	Pandas:**
 	Pandas, a powerful data manipulation and analysis library in Python, is employed in the YouTube Data Scraper. It provides essential functionalities for handling and processing data retrieved from YouTube, such as filtering, transformation, and aggregation.
+
+ **7.	Streamlit:**
+	Streamlit is utilized to build the user interface and visualization components of the project. It simplifies the process of creating interactive web applications with minimal code, enhancing the user experience.
+ 
 
 
 ## KEY COMPONENTS:
