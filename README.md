@@ -64,6 +64,17 @@ __SQL Queries:__
 
 •	Videos with the highest number of comments and their channels.
 
+## STEPS:
+
+1. Establish connection to YouTube API using Google API Client and developer key.
+2. Create functions to extract channel info, video IDs, details, and comments from YouTube API.
+3. Utilize Pymongo for MongoDB and Psycopg2 for PostgreSQL to store data.
+4. Run SQL queries on PostgreSQL for data analysis, answering specific YouTube data questions.
+5. Leverage Pandas for efficient data manipulation tasks.
+6. Integrate Streamlit for user-friendly web app allowing data extraction and visualization.
+7. Use Pandas to create visualizations like bar charts for summarized insights.
+8. Showcase a holistic project approach providing valuable insights into YouTube channels, videos, and user engagement.
+
 ## CONCLUSION:
 The project integrates YouTube API, MongoDB, SQL, and Streamlit for a comprehensive data harvesting and warehousing solution.Enables easy data exploration and analysis through the Streamlit app.Facilitates querying insights from the SQL database.
 
